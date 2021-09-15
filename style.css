@@ -1,0 +1,115 @@
+/* General Css */
+body{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    border: 1px #e82849 solid;
+    padding: 1em;
+    background-color: #e82849;
+    width: 6em;
+    border-radius: 0.7em;
+    text-align: center;
+}
+.btn:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.text-color{
+    color:#096eb9;
+}
+
+/* hearder */
+#heard{
+    display: flex;
+    padding: 1.2em;
+    justify-content: center;
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+}
+.navigation ul{
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    margin-top: 4%;
+}
+.navigation ul li{
+    padding: 0 2em 0 2em;
+}
+.navigation ul li a{
+    color:rgb(179, 178, 178);
+}
+.navigation ul li a:hover{
+    color:#096eb9;
+}
+.btn-1 a{
+    color: #fff;
+}
+
+/* Heard 2 */
+.heard-2{
+    display: flex;
+}
+.left-elements{
+    padding: 2em;
+    width: 55%;
+}
+.localisation{
+    font-family: arial;
+    display: flex;
+    width: 15em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+.localisation img{
+    display: inline;
+    max-width: 1.5em;
+    height: 1.5em;
+}
+.localisation p{
+    margin-top: 0.2em;
+    margin-left: 0.4em;
+}
+.left-element-title h3{
+    margin-top: 0.6em;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+.left-element-title p{
+    margin-bottom: 0;
+    font-family: arial;
+    color: gray;
+    font-size: 1.3em;
+}
+.img-illustration{
+    margin-top: 1em;
+}
+.img-illustration img{
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    width: 2.4em;
+    height: 2.4em;
+    clip-path: ellipse(50% 50%);
+}
+.btn-2{
+    width: 10em;
+}
+.btn-2 a{
+    color: #fff;
+}
+
+.right-elements{
+    width: 45%;
+}

@@ -34,7 +34,14 @@ a{
     color:#096eb9;
     font-family: roboto;
 }
-
+.point{
+    display: block;
+    opacity: 0;
+    text-align: center;
+}
+.point:hover{
+    opacity: 1;
+}
 /* hearder */
 #heard{
     display: flex;

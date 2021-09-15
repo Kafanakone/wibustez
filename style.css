@@ -12,6 +12,12 @@ ul, ol{
 a{
     text-decoration: none;
 }
+.content{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
 .btn{
     border: 1px #e82849 solid;
     padding: 1em;
@@ -26,18 +32,22 @@ a{
 }
 .text-color{
     color:#096eb9;
+    font-family: roboto;
 }
 
 /* hearder */
 #heard{
     display: flex;
-    padding: 1.2em;
-    justify-content: center;
+    padding: 1em;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .logo{
     font-size: 1.5em;
     font-weight: bold;
     color: #000;
+    padding-left: 1em;
 }
 .navigation ul{
     font-family: arial;
@@ -60,11 +70,14 @@ a{
 
 /* Heard 2 */
 .heard-2{
+    width: 100%;
     display: flex;
+    margin-bottom: 0px;
 }
 .left-elements{
     padding: 2em;
-    width: 55%;
+    width: 50%;
+    margin-bottom: 0px;
 }
 .localisation{
     font-family: arial;
@@ -84,7 +97,7 @@ a{
 }
 .left-element-title h3{
     margin-top: 0.6em;
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 0;
 }
 .left-element-title p{
@@ -112,4 +125,167 @@ a{
 
 .right-elements{
     width: 45%;
+}
+.fond-right{
+    width: 33em;
+    height: 33em;
+    border-top-left-radius: 15em;
+    border-top-right-radius: 15em;
+    margin-left: 2em;
+    margin-bottom: 0px;
+    clear: both;
+}
+/* Icons flottantes */
+.classem-img{
+    height: 0;
+}
+.content-icon{
+    width: 9em;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    padding: 0.2em;
+    border-radius: 0.9em;
+    margin-bottom: 0px;
+}
+.content-icon img{
+    width: 3em;
+}
+.visit-japon{
+    bottom: 10em;
+    left: 15em;
+    margin-bottom: 0px;
+}
+.visit-japon p{
+    font-family: arial;
+    margin-top: 0;
+    margin-left: 0.3em;
+    line-height: 1.4em;
+}
+.destination{
+    margin-bottom: 0px;
+    bottom: 33em;
+    box-shadow: 1px 0px 3px 3px gray;
+}
+.destination p{
+    font-family: arial;
+    margin-top: 0;
+    margin-left: 0.3em;
+    line-height: 1.4em;
+}
+.user-online{
+    margin-bottom: 0px;
+    bottom: 41em;
+    left: 23em;
+    box-shadow: 1px 0px 3px 3px gray;
+}
+.user-online p{
+    font-family: arial;
+    margin-top: 0;
+    margin-left: 0.3em;
+    line-height: 1.4em;
+}
+/* End Icons */
+
+/* logo Partenaires */
+#logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 93vw;
+    background-color: rgb(221, 218, 218, 0.1);
+    padding: 3em;
+    margin-bottom: 3em;
+}
+#logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+/* Bottom section */
+.bottom-section{
+    display: flex;
+    padding: 1em;
+}
+.bottom-section-left{
+    width: 60em;
+    margin-right: 2em;
+}
+.bottom-section-left h3{
+    font-size: 4em;
+    margin-bottom: 0;
+}
+.bottom-section-left p{
+    font-family: arial;
+    color: gray;
+    font-size: 1.3em;
+    margin-top: 1.7em;
+    margin-bottom: 1.7em;
+}
+.btn-3 a{
+    color: #fff;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services img{
+    display: block;
+    margin: 1.2em;
+    margin-left: 0;
+}
+.services p{
+    font-family: arial;
+    color: gray;
+    margin-top: 0.5em;
+}
+.services b{
+    margin-bottom: 0;
+}
+.services-destination{
+    width: 12em;
+    height: 12em;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 0.7em;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgb(161, 161, 161, 0.2);
+}
+
+
+.services-preparation{
+    width: 12em;
+    height: 12em;
+    margin: auto;
+    padding: 1em;
+}
+.services-preparation:hover{
+    border-radius: 0.7em;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgb(161, 161, 161, 0.2);
+}
+
+.services-go-to-destination{
+    width: 12em;
+    height: 12em;
+    margin: auto;
+    padding: 1em;
+}
+.services-go-to-destination:hover{
+    border-radius: 0.7em;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgb(161, 161, 161, 0.2);
+}
+
+.services-enjoy{
+    width: 12em;
+    height: 12em;
+    margin: auto;
+    padding: 1em;
+}
+.services-enjoy:hover{
+    border-radius: 0.7em;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px 3px rgb(161, 161, 161, 0.2);
 }
